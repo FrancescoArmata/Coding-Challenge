@@ -1,0 +1,96 @@
+*{
+  box-sizing: border-box;
+}
+
+
+.background{
+  background-image: url(background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+}
+
+.container{
+  background-color: rgba(0, 0, 0, 0.55);
+  border-radius: 15px;
+  text-align: center;
+  position: relative;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-left: 18%;
+  margin-right: 18%;
+}
+
+.logo{
+  width: 200px;
+  margin-top: 75px;
+}
+
+.logo-text{
+  color: #00ff00;
+  margin-top: -2%;
+  font-family: 'Poppins', sans-serif;
+}
+
+.nav{
+  margin-left: 70px;
+  margin-right: 70px;
+  margin-top: -20px;
+  background: #00ff00;
+  text-align: center;
+  padding: 7px;
+
+}
+
+.info-mono{
+  text-align: left;
+  margin-left: 70px;
+  margin-right: 70px;
+  margin-top: 25px;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  position: relative;
+}
+
+.mono{
+  font-size: 20px;
+}
+
+.battery{
+  height: 25px;
+  border-radius: 5px;
+  position: relative;
+}
+
+.mono-1:hover > .battery::after{
+position: absolute;
+content: '\01F914';
+right: 10px;
+}
+
+.mono-2:hover > .battery::after{
+position: absolute;
+content: '\01F604';
+right: 10px;
+}
+
+.mono-3:hover > .battery::after{
+position: absolute;
+content: '\01F629';
+right: 10px;
+}
+
+.mono-1 .battery{
+  width: 300px;
+  background-color: orange;
+}
+
+.mono-2 .battery{
+  width: 500px;
+  background-color: #32cd32;
+}
+
+.mono-3 .battery{
+  width: 150px;
+  background-color: #dc143c;
+}
